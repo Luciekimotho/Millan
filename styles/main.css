@@ -1,11 +1,86 @@
-body{
+body h1,h2,h3,h4,h5,h6,p,li{
+    font-family: 'PT Serif', serif;
+}
+body ul{
+    list-style: none;
+}
+
+.nav_menu{
+    float: right;
+    margin: 10px;
+    position: fixed;
+    margin-left: 600px;
+    /*background-color: rgba(0,0,0,0.3);*/
+}
+
+.nav_menu ul{
+    list-style: none;
 
 }
 
+.nav_menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav_menu ul li a{
+    color: black;
+    font-size: 1.3em;
+}
+
+.nav_menu ul li a:hover{
+    color: blue;
+    font-size: 1.3em;
+    text-decoration-line: none;
+
+    z-index: 200;
+}
 .home_div{
+    padding: 10px;
+    margin: 10px;
     height: 100vh;
+
 }
 
-.home_div{
+.home_div h1{
+    font-size: 2.7em;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
 
+.home_div p{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.home_div a{
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+}
+
+.home_div .contact_btn{
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.about_div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.services_div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.team_div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact_div{
+    padding: 10px;
+    margin: 10px;
 }
