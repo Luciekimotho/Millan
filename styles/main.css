@@ -1,16 +1,16 @@
 body h1,h2,h3,h4,h5,h6,p,li{
-    font-family: 'PT Serif', serif;
+font-family: 'Nunito', sans-serif;
 }
 body ul{
     list-style: none;
 }
 
-.nav_menu{
-    float: right;
-    margin: 10px;
-    position: fixed;
-    margin-left: 600px;
-    /*background-color: rgba(0,0,0,0.3);*/
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
 .nav_menu ul{
@@ -28,59 +28,181 @@ body ul{
     font-size: 1.3em;
 }
 
-.nav_menu ul li a:hover{
-    color: blue;
-    font-size: 1.3em;
-    text-decoration-line: none;
+.brand-logo{
 
-    z-index: 200;
 }
+
+.nav_color{
+    background: rgba(0,0,0,0.5);
+}
+
+
+.mask{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 10px;
+    margin: -10px;
+}
+
 .home_div{
     padding: 10px;
-    margin: 10px;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(../img/security.jpg);
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
 
 }
 
 .home_div h1{
-    font-size: 2.7em;
+    font-size: 3.5em;
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    padding-top: 15px;
+    color: white;
+
 }
 
 .home_div p{
     font-size: 1.7em;
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    color: white;
 }
 
-.home_div a{
-    text-align: center;
-    color: black;
-    text-decoration-line: none;
-}
-
-.home_div .contact_btn{
-    color: black;
+.home_div .text2 p{
+    font-size: 1.4em;
+    /*text-align: center;*/
     font-family: 'Cabin', sans-serif;
 }
 
+.home_div .contact_btn {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.home_div .contact_btn:hover p {
+ display: inline;
+    border: 2px solid blue;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+
+.home_div .contact_btn a{
+    text-align: center;
+    text-decoration-line: none;
+    color: white;
+}
+
+
+
+.home_div .contact_btn a p{
+    display: inline;
+    border: 2px solid black;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
 .about_div{
     padding: 10px;
-    margin: 10px;
+    text-align: center;
+
+}
+
+.about_div h1{
+    text-align: center;
+    color: blue;
+    font-size: 3.2em;
+    color:rgba(0,0,128,0.9);
+}
+
+.about_div h3{
+    font-size: 2.5em;
+    color:rgba(0,0,128,0.9);
+}
+.about_div p{
+
+}
+
+.about_div .values_div .values{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.about_div .missionst{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
 }
 
 .services_div{
     padding: 10px;
-    margin: 10px;
+
+}
+
+.services_div h3{
+    text-align: center;
+    color:rgba(0,0,128,0.9);
+}
+
+.services_div .industry{
+    font-weight: bold;
 }
 
 .team_div{
     padding: 10px;
-    margin: 10px;
+    text-align: center;
 }
+
+.team_div h1{
+    color:rgba(0,0,128,0.9);
+    font-size: 3.2em;
+}
+
+.team_div h4{
+    font-size: 1.6em;
+    display: inline;
+    border-bottom: 2px solid black;
+    color:rgba(0,0,128,0.9);
+}
+
+
+.team_div h6{
+    font-size: 1.4em;
+    color:rgba(0,0,128,0.9);
+}
+
+.team_div .directors_div{
+    padding: 15px;
+}
+
+.team_div .mgt_div{
+    padding: 15px;
+}
+
+.team_div .staff{
+    padding: 4px;
+}
+
+.team_div .staff .card{
+    padding: 5px;
+}
+
+
 
 .contact_div{
     padding: 10px;
-    margin: 10px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.contact_div h1{
+    color:rgba(0,0,128,0.9);
+    font-size: 3.2em;
 }
