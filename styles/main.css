@@ -175,47 +175,6 @@ nav .brand-logo {
     font-weight: bold;
 }
 
-.team_div{
-    padding: 10px;
-    text-align: center;
-}
-
-.team_div h1{
-    color:rgba(0,0,128,0.9);
-    font-size: 3.2em;
-}
-
-.team_div h4{
-    font-size: 1.6em;
-    display: inline;
-    border-bottom: 2px solid black;
-    color:rgba(0,0,128,0.9);
-}
-
-
-.team_div h6{
-    font-size: 1.4em;
-    color:rgba(0,0,128,0.9);
-}
-
-.team_div .directors_div{
-    padding: 15px;
-}
-
-.team_div .mgt_div{
-    padding: 15px;
-}
-
-.team_div .staff{
-    padding: 4px;
-}
-
-.team_div .staff .card{
-    padding: 5px;
-}
-
-
-
 .contact_div{
     padding: 10px;
     background-color: gray;
