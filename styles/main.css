@@ -106,6 +106,27 @@ nav .brand-logo {
     text-align: center;
     padding: 10px;
 }
+
+.services_brief{
+
+}
+
+.services_brief h1{
+     font-size: 2.5em;
+     color:rgba(0,0,128,0.9);
+     text-align: center;
+}
+
+.about_brief{
+
+}
+
+.about_brief h1{
+     font-size: 2.5em;
+     color:rgba(0,0,128,0.9);
+     text-align: center;
+}
+
 .about_div{
     padding: 10px;
     text-align: center;
