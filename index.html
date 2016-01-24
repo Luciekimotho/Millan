@@ -16,36 +16,39 @@
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500|Lato|Oxygen|Nunito|Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500|Lato:700|Oxygen|Nunito|Bree+Serif' rel='stylesheet' type='text/css'>
 
 
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"></link>
 </head>
 
 <body>
-
+<div class="navbar-fixed">
 <nav>
     <div class="nav-wrapper my-navbar nav_color">
-    <a href="#" class="brand-logo"><img src="img/milan.png" height="300px" width="300px"></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#home">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Security Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    <a href="#" class="brand-logo"><img src="img/milanlogo.jpg" height="100px" width="100px"></a>
+      <ul id="nav-mobile" class="right">
+        <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="" href="about.html">About</a></li>
+                    <li><a class="" href="services.html">Security Services</a></li>
+                    <li><a class="smoothScroll" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+    </div>
 
 <!--Home division-->
     <div id="home" class="home_div">
             <div class="mask">
-                 <h1>MILLAN SECURITY COMPANY</h1><br>
+                 <h1 class="animated fadeInDown">MILLAN SECURITY COMPANY</h1><br>
                 <div class="row">
                     <div class="col s12 m12 l6">
-                        <p>We are a leading contract security firm in the property, corporate, industrial,hospitality, commercial and construction industries.</p>
+                        <p class="animated slideInLeft">We are a leading contract security firm in the property, corporate, industrial,hospitality, commercial and construction industries.</p>
                     </div>
                     <div class="col s12 m12 l6 text2">
-                        <p> Looking for a comprehensive security solution for your property?From Guarding, Alarm response, CCTV and electronic surveillance, vehicle tracking solution and Investigation services?<br><br> We at Millan will provide you with a solution that meets your needs.</p>
+                        <p class="animated slideInRight"> Looking for a comprehensive security solution for your property?From Guarding, Alarm response, CCTV and electronic surveillance, vehicle tracking solution and Investigation services?<br><br> We at Millan will provide you with a solution that meets your needs.</p>
 
                     </div>
                 </div>
@@ -57,9 +60,12 @@
         </div>
     </div>
 
-    <div class="services_brief">
-        <h1>Our Services</h1>
-        <ul>
+    <div class="services_brief row">
+        <h1>WHAT WE DO</h1>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <h5 class="color">Millan security solutions.</h5>
+            <ul>
             <li>Security/Manned Guarding</li>
             <li>Alarm Installation &amp; Response</li>
             <li>Vehicle Tracking Services</li>
@@ -68,8 +74,14 @@
             <li>CCTV &amp; Access Control Systems</li>
             <li>Outsourced Personnel – Front Office &amp; Customer Relations</li>
         </ul>
+            </div>
 
-        <p>Areas of contractual security provision</p>
+        </div>
+
+
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <h5 class="color">Areas of contractual security provision</h5>
         <ul>
            <li> Manufacturing & Construction</li>
 <li> Educational Institutions & Hospitals</li>
@@ -78,11 +90,42 @@
 <li> Shopping Centers & Retail Stores</li>
 <li> Security Patrols</li>
         </ul>
+            </div>
+
+        </div>
+
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <h5 class="color"> Investigation services</h5>
+            <p>Accident Benefit Claims
+<br> Property Theft Claims
+<br> WIBA
+<br> Tracing – of defaulters and third party registered owners of blamed motor vehicles.
+<br> Casualty Claims
+<br> Goods in Transit Losses/Thefts.
+<br> Background Investigation
+<br> Surveillance
+<br> Litigations Support
+<br> Corporate Investigations Service</p>
+            </div>
+
+        </div>
+
+        <div class="col s12 m6 l3">
+            <div class="card">
+            <h5 class="color">Vehicle tracking services</h5>
+            <p>We provide GPS, GPRS satellite based vehicle and asset tracking solutions. Our tracking units are fitted with the latest SIRF star III technology chips - GSM receiver, which is able to communicate and interpret the signals from these GPS satellites. We provide solutions to all vehicle owners from corporate to individuals.</p>
+            </div>
+
+        </div>
+
+
 
     </div>
 
     <div class="about_brief">
-        <h1>What makes us different</h1>
+        <h1>WHAT MAKES US DIFFERENT</h1>
+        <p>We offer excellent customer service together with excellent security training and services.<br> Millan Security difference is in the details.<br> We take time to understand the security challenges that our clients are facing,<br> and then we assist them in developing a security program that works for their unique needs and fits in with their unique budget.</p>
     </div>
 
 
@@ -97,15 +140,21 @@
                 <br>Tel: 020 8068 567/2424 965
                 <br>Cell: 0722 873 555 or 0733 615 528
                 <br> Address: P.O Box 28680 - 00100 NAIROBI
-                <br>Email: nahashon@millansecurity.com</p>
+                <br>Email: info@millansecurity.com</p>
         </div>
 
     </div>
+
+    <footer>
+        <p> &copy;2016 | Millan Security Company</p>
+    </footer>
     <!-- Jquery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
     <!--Materialize javascript links-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>    <!--page's javascript link-->
     <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 
 </body>
