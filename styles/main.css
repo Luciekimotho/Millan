@@ -55,6 +55,7 @@ nav ul a:hover{
     width: 100%;
     padding: 10px;
     margin: -10px;
+    height: 100vh;
 }
 
 .home_div{
@@ -68,6 +69,7 @@ nav ul a:hover{
     -webkit- transition: all 0.25 ease;
     -moz-transition: all 0.25 ease;
     transition: all 0.25 ease;
+    height: 100vh;
 
 }
 
@@ -126,8 +128,9 @@ nav ul a:hover{
 
 .services_brief{
    padding-top: 20px;
-    margin-top: -30px;
+    margin-top: 0px;
 text-align: center;
+    background-color: beige;
 }
 
 .services_brief h1{
@@ -150,6 +153,10 @@ text-align: center;
    padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    background-color: beige;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
 }
 
 .about_brief h1{
@@ -221,9 +228,16 @@ text-align: center;
     font-weight: bold;
 }
 
+
+.services_div .investigate{
+   /* background-color: #565A5c;*/
+    background-color: beige;
+    padding: 10px;
+}
+
 .contact_div{
     padding: 10px;
-    background-color: #C1CDCD;
+   /* background-color: #C1CDCD;*/
     text-align: center;
 
 }
