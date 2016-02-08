@@ -3,118 +3,130 @@
 
 <head>
     <title>Millan Security Company</title>
-    <meta  http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <!-- Main css styling file-->
+    <!-- Main css styling file-->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+    <!--Materilaize css stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
     <!--Google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato|Roboto|Montserrat|Cabin:600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans|Arimo' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500|Oxygen|Nunito|Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500|Lato:700|Oxygen|Nunito|Bree+Serif' rel='stylesheet' type='text/css'>
+    <!--Font awesome Icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <!--for the Slider-->
+    <link rel="stylesheet" href="styles/flickerplate.css">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"></link>
 </head>
 
 <body>
-<div class="navbar-fixed">
-<nav>
-    <div class="nav-wrapper my-navbar nav_color">
-    <a href="#" class="brand-logo"><img src="img/milanlogo.jpg" height="100px" width="100px"></a>
-      <ul id="nav-mobile" class="right">
-        <li><a class="active" href="#home">Home</a></li>
-                    <li><a class="" href="about.html">About</a></li>
-                    <li><a class="" href="services.html">Security Services</a></li>
-                    <li><a class="smoothScroll" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-    </div>
 
-<!--Home division-->
-    <div id="home" class="home_div">
-            <div class="mask">
-                 <h1 class="animated fadeInDown">MILLAN SECURITY COMPANY</h1><br>
-                <div class="row">
-                    <div class="col s12 m12 l6">
-                        <p class="animated slideInLeft">We are a leading contract security firm in the property, corporate, industrial,hospitality, commercial and construction industries.</p>
-                    </div>
-                    <div class="col s12 m12 l6 text2">
-                        <p class="animated slideInRight"> Looking for a comprehensive security solution for your property?From Guarding, Alarm response, CCTV and electronic surveillance, vehicle tracking solution and Investigation services?<br><br> We at Millan will provide you with a solution that meets your needs.</p>
 
-                    </div>
-                </div>
-
-                <div class="contact_btn">
-                    <a href="#contact" class="waves-effect blue waves-light btn btn-large">Contact us.</a>
-                </div>
-            </div>
+    <!-- The navigation menu-->
+    <nav>
+        <div class="nav-wrapper my-navbar nav_color">
+            <a href="#" class="brand-logo my_logo"><img src="img/milan.png" height="100px" width="100px"></a>
+            <ul id="" class="right">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a class="" href="about.html">About</a></li>
+                <li><a href="services.html">Security Services</a></li>
+                <li><a class="smoothScroll" href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <div class="services_brief row">
-        <h1>WHAT WE DO</h1>
-        <div class="col s12 m6 l3">
-            <div class="card">
-                <h5 class="color">Millan security solutions.</h5>
-            <ul>
-            <li>Security/Manned Guarding</li>
-            <li>Alarm Installation &amp; Response</li>
-            <li>Vehicle Tracking Services</li>
-            <li>Investigations Services</li>
-            <li>Dog Handling Service</li>
-            <li>CCTV &amp; Access Control Systems</li>
-            <li>Outsourced Personnel – Front Office &amp; Customer Relations</li>
-        </ul>
-            </div>
-
-        </div>
-
-
-        <div class="col s12 m6 l3">
-            <div class="card">
-                <h5 class="color">Areas of contractual security provision</h5>
+    <!--Home division-->
+    <div id="home" class="flicker-example">
         <ul>
-           <li> Manufacturing & Construction</li>
-<li> Educational Institutions & Hospitals</li>
-<li> Residential & Commercial Properties</li>
-<li> Corporate Security Consulting</li>
-<li> Shopping Centers & Retail Stores</li>
-<li> Security Patrols</li>
+
+            <!-- First slider-->
+            <li class="text" data-background="security.jpg">
+                <div class="mask">
+                    <div class="flick-title zndex">
+                        <p class="title1">MILLAN SECURITY COMPANY</p>
+                        <p class="title">We are a leading contract security firm in the property, corporate, industrial,hospitality, commercial and construction industries.</p>
+                    </div>
+
+                    <div class="btn_div">
+                        <a class="contact_btn" href="#contact">CONTACT US</a>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Second slider-->
+            <li class="text2" data-background="img/security.jpg">
+                <div class="mask">
+                    <div class="flick-title title2_div">
+                        <p class="title2"> Looking for a comprehensive security solution for your property?
+                            <br> From Guarding, Alarm response, CCTV &amp; Electronic surveillance,
+                            <br> Vehicle tracking solution and Investigation services?
+                            <br> We at Millan will provide you with a solution that meets your needs.</p>
+                    </div>
+
+                    <div class="btn_div">
+                        <a href="#contact" class="contact_btn">CONTACT US.</a>
+
+
+                    </div>
+
+                </div>
+            </li>
+
         </ul>
+    </div>
+
+
+    <!--The brief services section-->
+    <div class="services_brief row">
+        <h1>Millan security solutions.</h1>
+        <div class="col s12 m6 l3">
+            <div class="card card_size">
+
+                <h5 class="color">Security and Manned Guarding.</h5>
+                <img src="img/police38.png" height="50%" width="50%">
+            </div>
+
+        </div>
+
+
+        <div class="col s12 m6 l3">
+            <div class="card card_size">
+
+                <h5 class="color">Alarm Installation &amp; Response.</h5>
+                <img src="img/tool1335.png" height="50%" width="50%">
             </div>
 
         </div>
 
         <div class="col s12 m6 l3">
-            <div class="card">
-                <h5 class="color"> Investigation services</h5>
-            <p>Accident Benefit Claims
-<br> Property Theft Claims
-<br> WIBA
-<br> Tracing – of defaulters and third party registered owners of blamed motor vehicles.
-<br> Casualty Claims
-<br> Goods in Transit Losses/Thefts.
-<br> Background Investigation
-<br> Surveillance
-<br> Litigations Support
-<br> Corporate Investigations Service</p>
+            <div class="card card_size">
+                <a href="investigate.html"> <h5 class="color"> Investigation services</h5></a>
+                <p>We offer investigative services &amp assist corporate clients to verify potential employees, suppliers, sub-contractors, business partners. <span class="read_more"><a href="investigate.html">Read more...</a></span></p>
+                <img src="img/tool1333.png" height="50%" width="50%">
+
             </div>
 
         </div>
 
         <div class="col s12 m6 l3">
-            <div class="card">
-            <h5 class="color">Vehicle tracking services</h5>
-            <p>We provide GPS, GPRS satellite based vehicle and asset tracking solutions. Our tracking units are fitted with the latest SIRF star III technology chips - GSM receiver, which is able to communicate and interpret the signals from these GPS satellites. We provide solutions to all vehicle owners from corporate to individuals.</p>
+            <div class="card card_size">
+               <a href="vehicle.html"><h5 class="color">Vehicle tracking services</h5></a>
+                <p>Our tracking units are fitted with the latest SIRF star III technology chips - GSM receiver, which is able to communicate and interpret the signals from these GPS satellites. <span class="read_more"><a href="vehicle.html">Read more...</a></span></p>
+                <img src="img/delivery13.png" height="50%" width="50%">
+
             </div>
 
         </div>
@@ -123,38 +135,90 @@
 
     </div>
 
-    <div class="about_brief">
-        <h1>WHAT MAKES US DIFFERENT</h1>
-        <p>We offer excellent customer service together with excellent security training and services.<br> Millan Security difference is in the details.<br> We take time to understand the security challenges that our clients are facing,<br> and then we assist them in developing a security program that works for their unique needs and fits in with their unique budget.</p>
+
+    <!-- the brief about us section-->
+    <div class="about_brief row">
+        <h1>ABOUT US.</h1>
+        <div class="col s1 m6 l4">
+            <i class="fa fa-question fa-5x"></i>
+            <h5>Why us?</h5>
+            <p>We offer excellent customer service together with excellent security training and services.
+                <br> Millan Security difference is in the details.
+        </div>
+
+        <div class="col s1 m6 l4">
+            <i class="fa fa-briefcase fa-5x"></i>
+            <h5>Services</h5>
+            <p>We are a leading contract security firm in the property, corporate, industrial, hospitality, commercial, and construction industries and we have branches in major towns in order to cater for our customers country wide in an equivalent manner.</p>
+        </div>
+
+        <div class="col s1 m6 l4">
+            <i class="fa fa-bullseye fa-5x"></i>
+
+            <h5>Mission, Vision & Values.</h5>
+            <p>To bring a degree of experience, dedication, and professionalism to the security industry that has long been missing.</p>
+        </div>
+
     </div>
 
 
-
+    <!-- Contact us division-->
     <div id="contact" class="contact_div">
         <h1>CONTACT US</h1>
         <form>
 
         </form>
         <div>
-            <p>Location: Moi Avenue
-                <br>Tel: 020 8068 567/2424 965
-                <br>Cell: 0722 873 555 or 0733 615 528
-                <br> Address: P.O Box 28680 - 00100 NAIROBI
-                <br>Email: info@millansecurity.com</p>
+            <p> <i class="fa fa-map-marker"></i> Location: Moi Avenue
+                <br> <i class="fa fa-phone"></i>Tel: 020 8068 567/2424 965
+                <br> <i class="fa fa-mobile"></i> Cell: 0722 873 555 or 0733 615 528
+                <br> <i class="fa fa-envelope-o"></i>Email: info@millansecurity.com
+                <br> Address: P.O Box 28680 - 00100 NAIROBI</p>
         </div>
 
     </div>
 
+
+    <!--Footer copyright section-->
     <footer>
         <p> &copy;2016 | Millan Security Company</p>
     </footer>
+
+
+
     <!-- Jquery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+
     <!--Materialize javascript links-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>    <!--page's javascript link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
+
+    </script>
+    <!--page's javascript link-->
     <script src="js/main.js"></script>
 
+   <!-- Wow js link-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <!--Javascript for the slider-->
+    <script src="js/min/flickerplate.js"></script>
+
+
+   <!-- initializing the slider-->
+    <script>
+        new flickerplate({
+            selector: '.flicker-example'
+        });
+    </script>
+
+
+    <!--Initilizing drop down menu-->
+
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-button').dropdown();
+            console.log("dropdown");
+        });
+    </script>
 
 
 </body>

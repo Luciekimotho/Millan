@@ -1,7 +1,13 @@
 body h1,h2,h3,h4,h5,h6,p,li{
 /*font-family: 'Nunito', sans-serif;*/
-    font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif;*/
+    font-family: 'Vollkorn', serif;
 }
+
+body p, li{
+    font-size: 1.1em;
+}
+
 body ul{
     list-style: none;
 }
@@ -42,24 +48,46 @@ nav ul a:hover{
 }
 
 .brand-logo{
-   padding-top: 50px;
+
 }
 
+.my_logo{
+    margin-top: -12px;
+}
 .nav_color{
     background: rgba(0,0,0,0.5);
 }
 
 
+.title1{
+    font-size: 1.7em;
+}
+
+.title{
+     padding: 20px;
+    font-size: 0.6em;
+}
+
+.title2{
+    padding: 5%;
+    font-size: 0.6em;
+   /* text-align: left;*/
+}
+
+
+
 .mask{
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    padding: 10px;
-    margin: -10px;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
     height: 100vh;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
 }
 
 .home_div{
-    padding: 10px;
     background-repeat: no-repeat;
     background-image: url(../img/security.jpg);
     background-position: center;
@@ -95,42 +123,38 @@ nav ul a:hover{
     font-family: 'Cabin', sans-serif;
 }
 
-.home_div .contact_btn {
-    width: 20%;
+
+.contact_btn:hover{
+ background-color: #fff;
+    color: #000;
+}
+
+
+.contact_btn{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
     margin: 0 auto;
-    margin-top: 50px;
-}
-
-.home_div .contact_btn:hover p {
- display: inline;
-    border: 2px solid blue;
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-    padding: 10px;
-    color: blue;
-}
-
-.home_div .contact_btn a{
-    text-align: center;
-    text-decoration-line: none;
-    color: white;
 }
 
 
-
-.home_div .contact_btn a p{
-    display: inline;
-    border: 2px solid black;
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-    padding: 10px;
+.btn_div{
+     margin: 0 auto;
+    width: 200px;
 }
+
+
 
 .services_brief{
    padding-top: 20px;
     margin-top: 0px;
 text-align: center;
-    background-color: beige;
+    background-color: #F7F7F7;
 }
 
 .services_brief h1{
@@ -145,6 +169,10 @@ text-align: center;
     padding-bottom: 10px;
 }
 
+.card_size{
+    height: 350px;
+    padding: 10px;
+}
 
 
 
@@ -153,7 +181,7 @@ text-align: center;
    padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    background-color: beige;
+    /*background-color: beige;*/
     margin-top: -20px;
     margin-bottom: -20px;
     padding-bottom: 20px;
@@ -211,10 +239,18 @@ text-align: center;
     color:rgba(0,0,128,0.9);
 }
 
-.services_div .industry{
-    padding-left: 50px;
-    color:rgba(0,0,128,0.9);
+.industry_div{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
 }
+
+ .industry{
+  padding: 0px;
+    color:rgba(0,0,128,0.9);
+     text-align: center;
+}
+
 
 .color{
     color:rgba(0,0,128,0.9);
@@ -229,15 +265,22 @@ text-align: center;
 }
 
 
-.services_div .investigate{
+.investigate{
    /* background-color: #565A5c;*/
     background-color: beige;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.tracking{
+    text-align: center;
     padding: 10px;
 }
 
 .contact_div{
     padding: 10px;
-   /* background-color: #C1CDCD;*/
+    background-color: #C1CDCD;
     text-align: center;
 
 }
